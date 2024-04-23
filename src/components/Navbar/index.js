@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constant';
+import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -12,10 +13,11 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
+        {/* Use Link component directly */}
+        <NavLogo to='/'> 
+          <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          </div>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {

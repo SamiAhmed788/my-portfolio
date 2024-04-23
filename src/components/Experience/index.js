@@ -8,7 +8,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
-import { experiences } from '../../data/constants';
+import { experiences } from '../../data/constant';
 
 const Container = styled.div`
     display: flex;
@@ -74,7 +74,7 @@ const TimelineSection = styled.div`
 
 
 
-const index = () => {
+const Experience = () => {
     return (
         <Container id="experience">
             <Wrapper>
@@ -103,4 +103,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Experience

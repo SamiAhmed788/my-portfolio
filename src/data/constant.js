@@ -1,4 +1,4 @@
-
+import wetherapp from "../images/wether.png"
 export const Bio = {
     name: "Sami ahmed",
     roles: [
@@ -8,13 +8,13 @@ export const Bio = {
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/nityak1996",
+    github: "https://github.com/SamiAhmed788",
     resume:
-      "https://drive.google.com/file/d/1L7m-C9h85xd7dC2NspD0SZ7Jh_abRXqi/view?usp=drive_link",
-    linkedin: "https://www.linkedin.com/in/nitya-kumar-singh-aa9278254/",
+      "",
+    linkedin: "https://www.linkedin.com/in/sami-ahmed-a21aa1301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://twitter.com",
     // insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/vicky.kumar.1232/",
+    facebook: "https://www.facebook.com",
   };
   
   export const skills = [
@@ -90,7 +90,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://th.bing.com/th?id=OIP.DPbpk1NuTZpPOUyILogxogHaHk&w=247&h=252&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2",
         },
         {
           name: "GitHub",
@@ -111,14 +111,9 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://www.bing.com/th?id=OIP.eUrLjP_6-w6sEA3CFbiejgHaD3&w=214&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2",
         },
        
-        {
-          name: "Figma",
-          image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        },
       ],
     },
   ];
@@ -256,9 +251,9 @@ export const Bio = {
       title: "Facebook clone",
       date: "april 2024",
       description:
-        " A facebookclone with React JS, contextapi, and Material UI. ",
+        " A Full stack Facebook clone with frontend and backend,using nodejs and reactjs  ContextApi, and Material UI. ",
       image:
-        "",
+        "https://firebasestorage.googleapis.com/v0/b/frontend-project-c99c0.appspot.com/o/21.04.2024_23.38.52_REC.png?alt=media&token=8e2a8bbe-6ed3-4c3a-b422-becf7f3b6632",
       tags: ["React Js", "Local Storage"],
       category: "web app",
       github: "https://github.com/SamiAhmed788/FB_SOCIALMEDA_BY_REACT.git",
@@ -270,8 +265,7 @@ export const Bio = {
       date: "Jun 2021",
       description:
         " A weather app with React JS, Redux, and Material UI. ",
-      image:
-        "",
+      image:"https://firebasestorage.googleapis.com/v0/b/frontend-project-c99c0.appspot.com/o/05.03.2024_11.48.27_REC.png?alt=media&token=2e0ed65e-6bab-4e04-8fd2-5241f9810983",
       tags: ["React Js", "Local Storage"],
       category: "web app",
       github: "https://github.com/SamiAhmed788/Weatherapp-by-react-js.git",
@@ -284,11 +278,10 @@ export const Bio = {
       date: "feb 2024",
       description:
         " A currency calculator app with React Js.",
-      image:
-        "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      image:"https://firebasestorage.googleapis.com/v0/b/frontend-project-c99c0.appspot.com/o/21.04.2024_23.37.56_REC.png?alt=media&token=64f91944-c785-4aca-87cb-bb14c2136af3",
       tags: ["React Js", "Local Storage", "Node JS"],
       category: "web app",
-      github: "https://github.com/SamiAhmed788/CURRENCY-CALCULATOR-BY-REACT.git",
+      github: "hcttps://github.com/SamiAhmed788/CURRENCY-CALCULATOR-BY-REACT.git",
       webapp: "https://rishav-react-todo.netlify.app/",
     },
   

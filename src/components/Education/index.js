@@ -7,7 +7,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import { education, experiences } from '../../data/constants';
+import { education, experiences } from '../../data/constant';
 import EducationCard from '../Cards/EducationCard';
 
 const Container = styled.div`
@@ -77,7 +77,7 @@ const TimelineSection = styled.div`
 
 
 
-const index = () => {
+const Education = () => {
     return (
         <Container id="education">
             <Wrapper>
@@ -106,4 +106,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Education

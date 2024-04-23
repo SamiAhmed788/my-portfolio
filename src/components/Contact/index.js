@@ -122,7 +122,7 @@ const ContactButton = styled.input`
 
 
 
-const Contact = () => {
+const Contacts = () => {
 
   //hooks
   const [open, setOpen] = React.useState(false);
@@ -166,4 +166,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contacts

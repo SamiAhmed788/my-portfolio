@@ -11,7 +11,7 @@ import {
   Divider,
 } from "./ProjectsStyle";
 import ProjectCard from "../Cards/ProjectCards";
-import { projects } from "../../data/constants";
+import { projects } from "../../data/constant";
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
